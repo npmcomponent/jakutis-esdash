@@ -4,7 +4,7 @@ var primitiveTypes = ['number', 'string', 'boolean'];
 
 var hasOwn = Object.prototype.hasOwnProperty;
 
-module.exports = {
+var _ = {
     copy: function(source, target) {
         var i, j, found;
         for (i in source) {
@@ -14,7 +14,7 @@ module.exports = {
                         if (source[i] === null) {
                             target[i] = null;
                         } else {
-                            this.copy(source[i], target[i]);
+                            _.copy(source[i], target[i]);
                         }
                     } else {
                         target[i] = source[i];

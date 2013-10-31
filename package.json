@@ -26,6 +26,8 @@
     "url": "https://github.com/jakutis/esdash/issues"
   },
   "devDependencies": {
-    "mocha": "1.13.x"
+    "mocha": "1.13.x",
+    "grunt": "0.4.x",
+    "grunt-umd": "1.3.x"
   }
 }
