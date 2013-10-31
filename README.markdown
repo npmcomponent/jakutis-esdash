@@ -1,8 +1,22 @@
 # esdash
 
-Functional programming helper library that is aware of (does not duplicate) the latest ECMAScript features, which are polyfillable in all ECMA-262 (even oldest browsers).
+  Functional programming helper library that is aware of (does not duplicate) the latest ECMAScript features, which are polyfillable in all ECMA-262 (even oldest browsers)
 
-## Static API methods
+## Installation
+
+  Install with [npm](http://npmjs.org):
+
+    $ npm install esdash
+
+  Install with [component](http://component.io):
+
+    $ component install jakutis/esdash
+
+  Install with [bower](http://bower.io):
+
+    $ bower install esdash
+
+## API
 
 * copy
 * dateRFC1123
@@ -11,3 +25,7 @@ Functional programming helper library that is aware of (does not duplicate) the 
 * notEmpty
 * pad
 * zip
+
+## License
+
+  MIT
