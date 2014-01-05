@@ -33,12 +33,12 @@ var _ = {
     dateRFC1123: function(time) {
         var date = typeof time === 'undefined' ? new Date() : new Date(time);
         return days[date.getUTCDay()] + ', ' +
-                exports.pad(String(date.getUTCDate()), true, 2, '0') + ' ' +
+                _.pad(String(date.getUTCDate()), true, 2, '0') + ' ' +
                 month[date.getUTCMonth()] + ' ' +
-                exports.pad(String(date.getUTCFullYear()), true, 4, '0') + ' ' +
-                exports.pad(String(date.getUTCHours()), true, 2, '0') + ':' +
-                exports.pad(String(date.getUTCMinutes()), true, 2, '0') + ':' +
-                exports.pad(String(date.getUTCSeconds()), true, 2, '0') + ' ' +
+                _.pad(String(date.getUTCFullYear()), true, 4, '0') + ' ' +
+                _.pad(String(date.getUTCHours()), true, 2, '0') + ':' +
+                _.pad(String(date.getUTCMinutes()), true, 2, '0') + ':' +
+                _.pad(String(date.getUTCSeconds()), true, 2, '0') + ' ' +
                 'GMT';
     },
     extend: function() {
