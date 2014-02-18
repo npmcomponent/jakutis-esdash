@@ -1,20 +1,35 @@
 # esdash
 
-  Functional programming helper library that is aware of (does not duplicate) the latest ECMAScript features, which are polyfillable in all ECMA-262 (even oldest browsers)
+Functional programming helper library that is aware of (does not duplicate) the latest ECMAScript features, which are polyfillable in all ECMA-262 (even oldest browsers)
+
+- [Overview](#overview)
+- [Installation](#installation)
+- [API](#api)
+- [Development](#development)
+
+## Overview
+
+* Works on browsers and NodeJS.
+* Tested on these browsers:
+  * TODO
 
 ## Installation
 
-  Install with [npm](http://npmjs.org):
+  Install manually by adding to your HTML file:
 
-    $ npm install esdash
+    <script src="/path/to/esdash/index.umd.js"></script>
 
-  Install with [component](http://component.io):
+  Install with [npm](https://www.npmjs.org/package/esdash):
+
+    $ npm install --save esdash
+
+  Install with [component](http://component.io/jakutis/esdash):
 
     $ component install jakutis/esdash
 
   Install with [bower](http://bower.io):
 
-    $ bower install esdash
+    $ bower install --save esdash
 
 ## API
 
@@ -26,6 +41,6 @@
 * pad
 * zip
 
-## License
+## Development
 
-  MIT
+    TODO
