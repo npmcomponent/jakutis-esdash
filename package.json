@@ -20,11 +20,10 @@
     "util",
     "ecmascript"
   ],
-  "author": "Vytautas Jakutis <vytautas@jakut.is>",
+  "author": "Vytautas Jakutis <vytautas@jakut.is> (https://jakut.is/)",
+  "homepage": "https://www.npmjs.org/package/esdash",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/jakutis/esdash/issues"
-  },
+  "bugs": "https://github.com/jakutis/esdash/issues",
   "devDependencies": {
     "mocha": "1.16.x",
     "grunt": "0.4.x",
