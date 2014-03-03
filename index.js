@@ -4,7 +4,31 @@ var primitiveTypes = ['number', 'string', 'boolean'];
 
 var hasOwn = Object.prototype.hasOwnProperty;
 
+var _flatten = function(array) {
+    var flat = [];
+    array.forEach(function(item) {
+        if(Array.isArray(item)) {
+            flat.push.apply(flat, _flatten(item));
+        } else {
+            flat.push(item);
+        }
+    });
+    return flat;
+};
 var _ = {
+    flatten: function() {
+        return _flatten(Array.from(arguments));
+    },
+    all: function() {
+        var funs = Array.from(arguments);
+        return function() {
+            var args = Array.from(arguments);
+            funs = _.flatten(funs);
+            funs.forEach(function(fun) {
+                fun.apply(null, args);
+            });
+        };
+    },
     copy: function(source, target) {
         var i, j, found;
         for (i in source) {
@@ -42,7 +66,7 @@ var _ = {
                 'GMT';
     },
     extend: function() {
-        var sources = [].slice.call(arguments);
+        var sources = Array.from(arguments);
         var target = sources.shift();
         sources.forEach(function(source) {
             Object.keys(source).forEach(function(key) {
