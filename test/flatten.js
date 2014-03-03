@@ -16,4 +16,4 @@ describe('flatten', function(){
     it('should work with multiple arguments', function(){
         assert.deepEqual([1, 2, 3], _.flatten(1, [2], 3));
     });
-})
+});
