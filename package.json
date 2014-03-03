@@ -25,7 +25,7 @@
   "license": "MIT",
   "bugs": "https://github.com/jakutis/esdash/issues",
   "devDependencies": {
-    "mocha": "1.16.x",
+    "mocha": "1.17.x",
     "grunt": "0.4.x",
     "grunt-umd": "1.6.x"
   }
