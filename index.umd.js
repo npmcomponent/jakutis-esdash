@@ -107,6 +107,9 @@ var _ = {
         }
         return paddedString;
     },
+    pass: function(value) {
+        return value;
+    },
     zip: function(arrays) {
         var keys = Object.keys(arrays);
         var array = [];

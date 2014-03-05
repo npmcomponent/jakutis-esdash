@@ -33,14 +33,15 @@ Functional programming helper library that is aware of (does not duplicate) the 
 
 ## API
 
-* flatten
 * all
 * copy
 * dateRFC1123
 * extend
+* flatten
 * noop
 * notEmpty
 * pad
+* pass
 * zip
 
 ## Development
