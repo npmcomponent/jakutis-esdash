@@ -16,6 +16,17 @@ var _flatten = function(array) {
     return flat;
 };
 var _ = {
+    unique: function() {
+        var values = _flatten(Array.from(arguments));
+        var map = new Map();
+        return values.filter(function(value) {
+            if(map.has(value)) {
+                return false;
+            }
+            map.set(value, 1);
+            return true;
+        });
+    },
     flatten: function() {
         return _flatten(Array.from(arguments));
     },

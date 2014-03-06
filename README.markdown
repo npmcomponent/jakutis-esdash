@@ -33,6 +33,7 @@ Functional programming helper library that is aware of (does not duplicate) the 
 
 ## API
 
+* unique
 * all
 * copy
 * dateRFC1123
