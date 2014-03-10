@@ -33,7 +33,6 @@ Functional programming helper library that is aware of (does not duplicate) the 
 
 ## API
 
-* unique
 * all
 * copy
 * dateRFC1123
@@ -43,6 +42,8 @@ Functional programming helper library that is aware of (does not duplicate) the 
 * notEmpty
 * pad
 * pass
+* undefined
+* unique
 * zip
 
 ## Development
