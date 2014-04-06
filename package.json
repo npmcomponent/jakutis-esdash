@@ -28,6 +28,6 @@
     "es6-shim": "0.10.x",
     "mocha": "1.18.x",
     "grunt": "0.4.x",
-    "grunt-umd": "1.6.x"
+    "grunt-umd": "1.7.x"
   }
 }
