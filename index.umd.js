@@ -27,7 +27,9 @@ var _flatten = function(array) {
     });
     return flat;
 };
+var _undefined;
 var _ = {
+    undefined: _undefined,
     unique: function() {
         var values = _flatten(Array.from(arguments));
         var map = new Map();
