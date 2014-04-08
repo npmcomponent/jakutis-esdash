@@ -1,3 +1,4 @@
+*This repository is a mirror of the [component](http://component.io) module [jakutis/esdash](http://github.com/jakutis/esdash). It has been modified to work with NPM+Browserify. You can install it using the command `npm install npmcomponent/jakutis-esdash`. Please do not open issues or send pull requests against this repo. If you have issues with this repo, report it to [npmcomponent](https://github.com/airportyh/npmcomponent).*
 # esdash
 
 Functional programming helper library that is aware of (does not duplicate) the latest ECMAScript features, which are polyfillable in all ECMA-262 (even oldest browsers)

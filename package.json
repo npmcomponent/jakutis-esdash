@@ -1,15 +1,7 @@
 {
-  "name": "esdash",
+  "name": "jakutis-esdash",
+  "description": "Functional programming helper library that is aware of (does not duplicate) the latest ECMAScript features, which are polyfillable in all ECMA-262 (even oldest browsers)",
   "version": "0.0.4",
-  "description": "Functional programming helper library that is aware of (does not duplicate) the latest ECMAScript features, which are polyfillable in all ECMA-262 (even oldest browsers).",
-  "main": "index.umd.js",
-  "scripts": {
-    "test": "./node_modules/.bin/mocha"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/jakutis/esdash"
-  },
   "keywords": [
     "amd",
     "browser",
@@ -20,14 +12,7 @@
     "util",
     "ecmascript"
   ],
-  "author": "Vytautas Jakutis <vytautas@jakut.is> (https://jakut.is/)",
-  "homepage": "https://www.npmjs.org/package/esdash",
-  "license": "MIT",
-  "bugs": "https://github.com/jakutis/esdash/issues",
-  "devDependencies": {
-    "es6-shim": "0.10.x",
-    "mocha": "1.18.x",
-    "grunt": "0.4.x",
-    "grunt-umd": "1.7.x"
-  }
+  "main": "index.umd.js",
+  "dependencies": {},
+  "license": "MIT"
 }
